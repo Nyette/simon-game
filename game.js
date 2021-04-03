@@ -109,6 +109,7 @@ $(document).ready(function() {
 		if (!gameStarted) {
 			gameStarted = true;
 			$(".container").toggleClass("hidden");
+			$("#how-to-play").toggleClass("hidden");
 			handleNewLevel();
 			getInput();
 		}
